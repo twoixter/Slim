@@ -202,7 +202,7 @@ class Flash extends \Slim\Middleware implements \ArrayAccess, \IteratorAggregate
     /**
      * Countable: Count
      */
-    public function count()
+    public function count(): int
     {
         return count($this->getMessages());
     }
